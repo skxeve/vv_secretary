@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 119
+exclude = '''
+(
+    voicevox_core
+)
+'''
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+line_length = 119

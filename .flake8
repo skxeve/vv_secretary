@@ -1,0 +1,5 @@
+[flake8]
+ignore = W503
+max-line-length = 119
+exclude = voicevox_core
+max-complexity = 10
